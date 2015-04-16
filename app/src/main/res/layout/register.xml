@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textView2"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logocheerup" />
+        android:src="@drawable/logo" />
 
 
     <EditText
