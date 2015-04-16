@@ -3,12 +3,6 @@ package app.cheerup;
 /**
  * Created by CAIO on 16/04/2015.
  */
-import java.util.ArrayList;
-import java.util.List;
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONException;
-import org.json.JSONObject;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
@@ -19,6 +13,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Register extends Activity implements OnClickListener{
     private EditText user, pass;
@@ -34,6 +35,7 @@ public class Register extends Activity implements OnClickListener{
     // private static final String REGISTER_URL = "http://xxx.xxx.x.x:1234/cas/register.php";
 
     //testing on Emulator:
+    //ftp://ftp.cheerup.net/AppCheerUP/register.php
     private static final String REGISTER_URL = "http://cheerup-backup.esy.es/server/register.php";
 
     //ids
