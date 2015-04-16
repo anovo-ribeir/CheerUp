@@ -128,7 +128,7 @@ public class Login extends Activity implements View.OnClickListener {
                     edit.putString("username", username);
                     edit.commit();
 
-                    Intent i = new Intent(Login.this, Home.class);
+                    Intent i = new Intent(Login.this, menu_lateral.class);
                     finish();
                     startActivity(i);
                     return json.getString(TAG_MESSAGE);

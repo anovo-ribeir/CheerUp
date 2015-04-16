@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.cheerup" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -18,9 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Home"></activity>
-        <activity android:name=".Register"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".menu_lateral"
+            android:label="@string/title_activity_menu_lateral"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.cheerup.Login" />
+        </activity>
     </application>
 
 </manifest>
