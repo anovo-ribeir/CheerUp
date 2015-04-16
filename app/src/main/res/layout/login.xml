@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF3C85FF">
+    android:background="#ffffffff"
+    android:clickable="true">
 
 
     <Button
@@ -13,8 +14,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/login"
         android:layout_marginBottom="25dp"
-        android:text="Register"
-        android:background="#ffffffff" />
+        android:text="ENREGISTREMENT"
+        android:background="#FF3C85FF" />
 
     <Button
         android:id="@+id/login"
@@ -24,8 +25,8 @@
         android:layout_alignLeft="@+id/password"
         android:layout_alignRight="@+id/password"
         android:text="Login"
-        android:background="#ffffffff"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:background="#FF3C85FF" />
 
     <EditText
         android:id="@+id/password"
@@ -36,44 +37,32 @@
         android:ems="10"
         android:inputType="textPassword"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:hint="Mot de passe"
+        android:textAlignment="center">
 
         <requestFocus />
     </EditText>
 
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo" />
-
-
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:layout_alignBottom="@+id/password"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_alignStart="@+id/textView1" />
 
     <EditText
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_above="@+id/password"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp" />
+        android:clickable="true"
+        android:hint="Nom d&apos;utilisateur" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Username"
-        android:layout_alignBottom="@+id/username"
-        android:layout_toLeftOf="@+id/username"
-        android:layout_toStartOf="@+id/username" />
+    <ImageView
+        android:layout_width="328dp"
+        android:layout_height="294dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logocu"
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>

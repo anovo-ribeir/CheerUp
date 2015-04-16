@@ -34,7 +34,7 @@ public class Register extends Activity implements OnClickListener{
     // private static final String REGISTER_URL = "http://xxx.xxx.x.x:1234/cas/register.php";
 
     //testing on Emulator:
-    private static final String REGISTER_URL = "http://www.cheer-up.net/public/AppCheerUP/register.php";
+    private static final String REGISTER_URL = "http://cheerup-backup.esy.es/server/register.php";
 
     //ids
     private static final String TAG_SUCCESS = "success";

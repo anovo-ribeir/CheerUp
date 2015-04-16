@@ -65,7 +65,7 @@ public class Login extends Activity implements View.OnClickListener {
     // y poner de la siguiente manera
     // "http://xxx.xxx.x.x:1234/cas/login.php";
 
-    private static final String LOGIN_URL = "http://www.cheer-up.net/public/AppCheerUP/login.php";
+    private static final String LOGIN_URL = "http://cheerup-backup.esy.es/server/login.php";
 
     // La respuesta del JSON es
     private static final String TAG_SUCCESS = "success";
