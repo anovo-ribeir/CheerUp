@@ -9,11 +9,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title_chercher_patient"
-        android:id="@+id/cherche_patient_title"
+        android:id="@+id/title_chercher_patient"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
-
 
 </RelativeLayout>
 
